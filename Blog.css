@@ -1,0 +1,137 @@
+/* General Styles */
+body {
+  font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #ececf0;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  .BlogNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo a {
+    color: rgb(95, 92, 92);
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: rgb(22, 21, 21);
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+  }
+  
+  .hero-content p {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .blog-posts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .post h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .post .date {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  .post .excerpt {
+    font-size: 16px;
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .more-text {
+    display: none;
+  }
+  
+  .read-more.expanded {
+    color: #cc0000; /* Change color for 'Read Less' */
+  }
+  
+  .read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0066cc;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+    
